@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Java2UML
+Bundle-SymbolicName: co.gongzh.lab.java2uml;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: co.gongzh.lab.java2uml.Java2UML
+Bundle-Vendor: Gong Zhang
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources;visibility:=reexport,
+ org.eclipse.emf.ecore.xmi;visibility:=reexport,
+ org.eclipse.uml2;visibility:=reexport,
+ org.eclipse.uml2.uml;visibility:=reexport,
+ org.eclipse.jdt;visibility:=reexport,
+ org.eclipse.jdt.core;visibility:=reexport
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
